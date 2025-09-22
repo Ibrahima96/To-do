@@ -4,7 +4,7 @@ import { Task } from "./Task";
 
 export const Form = () => {
   const [tasks, setTasks] = useState([
-    { id: 1, content: "Je siuhaite recommencer le projet avec Belivemy", done: false },
+    { id: 1, content: "Je souhaite recommencer le projet avec Belivemy", done: false },
   ]);
   const [newTask, setNewTask] = useState("");
 
